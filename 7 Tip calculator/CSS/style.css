@@ -1,0 +1,94 @@
+body{
+    background: url(https://www.thewowstyle.com/wp-content/uploads/2015/01/nature-images.jpg) center center no-repeat;
+    background-size: cover;
+    color: #6c2726;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #222; */
+}
+
+#container{
+    width: 400px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background: rgb(214, 211, 211) top center repeat;
+    box-shadow: 0 10px 15px -8px #000;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+h1{
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #ddd;
+}
+
+form{
+    text-align: left;
+}
+
+form label{
+    display: block;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form select option{
+    padding: 9px;
+    margin: 10px 0;
+    display: block;
+    font-weight: bold;
+}
+
+form input[type="text"]{
+    width: 90px;
+
+}
+
+button{
+    background: #6c2726;
+    color: white;
+    border: none;
+    border-bottom: solid 4px #222;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+button:hover{
+    background: #4c2827;
+    border-bottom-color: #111;
+}
+
+button:active{
+    position: relative;
+    top: 2px;
+}
+
+#totalTip{
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+#totalTip::before{
+    content: "Tip amount";
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+#totalTip sup{
+    font-size: 24px;
+    top:-18px;
+}
+
+#totalTip small{
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
